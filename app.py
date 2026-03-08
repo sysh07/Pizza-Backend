@@ -605,10 +605,9 @@ def forecast():
 # ═══════════════════════════════════════════════
 
 if __name__ == "__main__":
-    # print("╔══════════════════════════════════════╗")
-    # print("║  🍕  PizzaIQ Analytics API           ║")
-    # print("║  Running at http://localhost:5000    ║")
-    # print("║  POST /upload  — CSV analytics       ║")
-    # print("║  POST /forecast — ML forecasting     ║")
-    # print("╚══════════════════════════════════════╝")
-    app.run(host="0.0.0.0", port=5000, debug=False)
+    print("╔══════════════════════════════════════╗")
+    print("║  🍕  PizzaIQ Analytics API           ║")
+    print("║  Running at http://localhost:5000    ║")
+    print("║  POST /upload  — CSV analytics       ║")
+    print("║  POST /forecast — ML forecasting     ║")
+    print("╚══════════════════════════════════════╝")
